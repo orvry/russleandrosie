@@ -80,7 +80,10 @@ export default function InvitationScene() {
       <div className="soft-blush right-[12%] bottom-14" />
       <span aria-hidden className="leaf-mark left-4 top-8 rotate-[-18deg]" />
       <span aria-hidden className="leaf-mark right-5 top-16 rotate-[18deg]" />
-      <span aria-hidden className="leaf-mark left-10 bottom-10 rotate-[28deg] scale-110" />
+      <span
+        aria-hidden
+        className="leaf-mark left-10 bottom-10 rotate-[28deg] scale-110"
+      />
 
       <div className="relative z-10 mx-auto w-full max-w-[700px]">
         <motion.section
@@ -151,7 +154,7 @@ export default function InvitationScene() {
             aria-expanded={isOpen}
             aria-controls="rsvp-form-panel"
             onClick={() => setIsOpen((value) => !value)}
-            className="flex h-[86px] w-full flex-col items-center justify-center text-[#4C433D] transition-colors hover:bg-[#EFE1D8]"
+            className="flex h-[86px] w-full flex-col items-center justify-center text-[#4C433D]"
           >
             <span className="text-[10px] uppercase tracking-[0.3em] text-[#7D8F74]">
               RSVP
