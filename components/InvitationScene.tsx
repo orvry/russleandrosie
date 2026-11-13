@@ -295,11 +295,11 @@ export default function InvitationScene() {
           <div className="detail-strip">
             <div>
               <span className="detail-key">When</span>
-              <span className="detail-answer">Sunday · 3:00 PM</span>
+              <span className="detail-answer">Sunday · 5:00 PM</span>
             </div>
             <div>
               <span className="detail-key">Where</span>
-              <span className="detail-answer">Quezon City, Philippines</span>
+              <span className="detail-answer">Metro Manila, Philippines</span>
             </div>
           </div>
 
